@@ -1,0 +1,22 @@
+.formulario {
+    max-width: 25em;
+    padding: 1em;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: rgba(194, 107, 20, 0.3);
+    border-radius: 5%;
+    box-shadow: inset 1px 1px 22px 4px;
+    }
+.btn {
+    margin-top: 20px;
+    background-color: $contraste;
+    border-color: black;
+}
+.btn:hover {
+    background-color: $contraste;
+    box-shadow: inset 0 0 10px 0 #111;
+    border-color: black;
+}
+.form-control {
+    border-color: black;
+}

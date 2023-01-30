@@ -1,0 +1,24 @@
+{
+  "name": "trabajo02",
+  "version": "1.0.0",
+  "description": "paquete css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/origen.scss css/compilado.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luquitasfp/trabajo02coderhouse.git"
+  },
+  "author": "LucasTedesco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luquitasfp/trabajo02coderhouse/issues"
+  },
+  "homepage": "https://github.com/luquitasfp/trabajo02coderhouse#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
